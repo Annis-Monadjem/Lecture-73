@@ -1,0 +1,17 @@
+{
+  "name": "73A-Assignment-3_Time-to-practice-navigation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Annis Monadjem",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

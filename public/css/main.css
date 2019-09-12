@@ -1,0 +1,96 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgb(84, 172, 236);
+  color: #052c66;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #052c66;
+  color: rgb(84, 172, 236);
+  display: flex;
+  align-items: center;
+}
+
+.main-header__nav {
+  width: 100%;
+}
+
+.main-header__list {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.main-header__item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem;
+  color: rgb(84, 172, 236);
+}
+
+.main-header__item > a:hover,
+.main-header__item > a:active,
+.main-header__item > a.active {
+  background-color: rgb(84, 172, 236);
+  color: #052c66;
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main > h1 {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+.main > img {
+  max-width: 100%;
+  display: block;
+
+  margin: auto;
+  border-radius: 50%;
+}
+
+.main-list {
+  font-size: 40px;
+  width: 30%;
+  margin: auto;
+}
+
+.main-list__item {
+  margin: 10px;
+  list-style: none;
+}
+
+.main-list__item a {
+  text-decoration: none;
+  list-style: square;
+  background-color: #f00;
+  color: #052c66;
+  padding: 2px;
+}
+
+.main-list__item a:hover,
+.main-list__item a:active {
+  background-color: #052c66;
+  color: #f00;
+}
