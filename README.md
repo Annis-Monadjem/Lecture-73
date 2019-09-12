@@ -1,4 +1,4 @@
-# Lecture-73_Annis-Monadjem
+# Lecture-73
 
 PROBLEM: When external JS file is connected (<script></script>) via HTML, it stops app.js server from performing navigation between different routes. Even when linking an Empty JS file, it makes app.js server to malfunction. Without a JS file, when clicking `office` or `users` links, server properly navigates into '/' route (renders 'office.html') or '/user' route (renders 'users.html'. When JS file is externally linked (in a script src element inside HTML file) app.js server fails to navigate routes. The JS files functionality works well, but app.js navigation breaks.
 
